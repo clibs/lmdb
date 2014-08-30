@@ -9,9 +9,6 @@
     "mdb.c",
     "lmdb.h",
     "midl.c",
-    "midl.h",
-    "mdb_stat.c",
-    "mdb_dump.c",
-    "mdb_copy.c",
+    "midl.h"
   ]
 }
