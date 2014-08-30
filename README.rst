@@ -1,4 +1,4 @@
-Website: http://symas.com/mdb/
+clib mirror of the LMDB database from: http://symas.com/mdb/
 
 Quick Overview
 --------------
