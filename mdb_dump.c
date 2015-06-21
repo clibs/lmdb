@@ -1,6 +1,6 @@
 /* mdb_dump.c - memory-mapped database dump tool */
 /*
- * Copyright 2011-2014 Howard Chu, Symas Corp.
+ * Copyright 2011-2015 Howard Chu, Symas Corp.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -233,6 +233,10 @@ int main(int argc, char *argv[])
 
 	envname = argv[optind];
 	rc = mdb_env_create(&env);
+	if (rc) {
+		fprintf(stderr, "mdb_env_create failed, error %d %s\n", rc, mdb_strerror(rc));
+		return EXIT_FAILURE;
+	}
 
 	if (alldbs || subname) {
 		mdb_env_set_maxdbs(env, 2);

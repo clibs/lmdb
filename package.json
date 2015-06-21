@@ -1,6 +1,6 @@
 {
   "name": "lmdb",
-  "version": "0.9.14",
+  "version": "0.9.15",
   "repo": "clibs/lmdb",
   "description": "Symas Lightning Memory-Mapped Database (LMDB)",
   "keywords": ["lmdb", "key/value", "database"],
