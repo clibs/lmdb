@@ -1,14 +1,14 @@
 {
   "name": "lmdb",
-  "version": "0.9.15",
-  "repo": "clibs/lmdb",
+  "version": "LMDB_0.9.17",
+  "repo": "LMDB/lmdb",
   "description": "Symas Lightning Memory-Mapped Database (LMDB)",
   "keywords": ["lmdb", "key/value", "database"],
   "license": "The OpenLDAP Public License",
   "src": [
-    "mdb.c",
-    "lmdb.h",
-    "midl.c",
-    "midl.h"
+    "libraries/liblmdb/mdb.c",
+    "libraries/liblmdb/lmdb.h",
+    "libraries/liblmdb/midl.c",
+    "libraries/liblmdb/midl.h"
   ]
 }
